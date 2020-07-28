@@ -481,7 +481,6 @@ public class InstitutoTrujillo extends javax.swing.JFrame {
     private void btnCalcularEdadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalcularEdadActionPerformed
 
         if (DatosGuardados == true) {
-            estudiante.CalcularEdad();
             txtEdad.setText(String.valueOf(estudiante.CalcularEdad()));
 
         } else {
